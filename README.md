@@ -1,5 +1,6 @@
-# A Medical Dashboard For Hospital Management
-##### Enhancing Decision Making Of Hospitals By Providing Insights Through Usage of a Medical Dashboard
+# A Medical Dashboard For Hospital Management 
+## You can see an overview of the dashboard using this link: https://rw-medical-dashboard.streamlit.app/
+#### Enhancing Decision Making Of Hospitals By Providing Insights Through Usage of a Medical Dashboard
 
 ### Introduction
 This Streamlit application is a medical dashboard for envisioning and analyzing hospital patient data. It provides various metrics, visualizations, and insights based on the dataset provided.
