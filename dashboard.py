@@ -2,12 +2,13 @@ import streamlit as st
 import plotly.express as px
 import numpy as np
 import pandas as pd
+import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("data/testdata.csv")
+df = pd.read_csv("C:/Users/royew/OneDrive/Desktop/DS_440/hospital_dashboard/dashboard/data/testdata.csv")
 
 st.set_page_config(
     page_title='Medical dashboard',
@@ -38,7 +39,7 @@ with col1:
     st.metric(label="No Of Patients Died ❌", value=died_count, delta=2, delta_color="inverse")
 
 with col2:
-    st.metric(label="Positve Reviews ✅", value=f"{positive_percentage:.2f}%", delta=1.5, delta_color="normal")
+    st.metric(label="Positive Reviews ✅", value=f"{positive_percentage:.2f}%", delta=1.5, delta_color="normal")
     st.metric(label="Revenue 💵", value=15324, delta=5000, delta_color="normal")
 
 with col3:
